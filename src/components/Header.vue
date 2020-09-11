@@ -8,7 +8,7 @@
         </v-layout>
         <v-layout class="text-center" id="flexWraper2">
             <v-flex >
-                <v-icon id="arrowIcon" class="white--text" @click="$vuetify.goTo('.first-section', 28, 'easeOutQuad')">mdi-chevron-double-down</v-icon>
+                <v-icon id="arrowIcon" class="white--text mb-10" @click="$vuetify.goTo('.first-section', 28, 'easeOutQuad')">mdi-chevron-double-down</v-icon>
             </v-flex>
         </v-layout>
     </v-container>
@@ -30,7 +30,7 @@ export default {
 }
 
 #flexWraper{
-    margin-top:40vh
+    margin-top:35vh
 }
 
 #flexWraper2{
