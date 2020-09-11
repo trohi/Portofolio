@@ -15,19 +15,22 @@
         <v-card class="project1">
           <v-card-title>Meetup Dev</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
-          <v-btn>Live</v-btn> <v-spacer></v-spacer> <v-btn>Git</v-btn>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project2">
           <v-card-title>Perfect Squad</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project3">
           <v-card-title>Inform-nation</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project4">
           <v-card-title>Joke generator</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
       </v-flex>
     </v-layout>
@@ -111,6 +114,15 @@
 
 .project1{
   background:linear-gradient(360deg, rgb(104, 102, 102), rgb(92, 81, 81),rgb(90, 50, 50), #660404)
+}
+
+.actions{
+  margin-left:auto;
+  margin-right:auto
+}
+
+.gitIcon, .liveIcon{
+  transform: scale(1.5)
 }
 
 .project2{
