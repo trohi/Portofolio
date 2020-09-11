@@ -10,24 +10,24 @@
         <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about5 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon5">mdi-palette</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
         <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about6 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon6">mdi-music</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
       </v-flex>
-      <v-flex xs12 class="second-section" >
+      <v-flex xs12 class="second-section">
         <h3>Projects</h3>
-        <v-card class="project1">
+        <v-card class="project1" data-aos="fade-right">
           <v-card-title>Meetup Dev</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project2">
+        <v-card class="project2" data-aos="fade-left">
           <v-card-title>Perfect Squad</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project3">
+        <v-card class="project3" data-aos="fade-right">
           <v-card-title>Inform-nation</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project4">
+        <v-card class="project4" data-aos="fade-left">
           <v-card-title>Joke generator</v-card-title>
           <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 mb-n10"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2 mb-n10"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
@@ -57,13 +57,18 @@
   padding-bottom:0
 }
 
-.first-section h3{
+ h3{
   margin: 5% 0%
 }
 
-.first-section h3{
-  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  font-size:25px
+h3{
+  font-size:25px;
+}
+
+.second-section .v-card{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto
 }
 
 .v-sheet.v-card:not(.v-sheet--outlined){

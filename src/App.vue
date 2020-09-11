@@ -34,8 +34,8 @@
       </div>
     <v-container fill-height fluid>
       <v-layout wrap row align-center >
-        <v-flex class="mt-n15 xs-12 text-center" d-flex  justify-center> 
-          <v-list class="unorderedList text-center" light >
+        <v-flex class="mt-n15 xs-12" d-flex  justify-center> 
+          <v-list class="unorderedList" light >
               <v-list-item  @click="$vuetify.goTo('.first-section',2,'easeOutQuint')"><label for="hiddenInput" @click="this.drawer = false">About</label></v-list-item>
               <v-list-item  @click="$vuetify.goTo('.second-section',22,'easeOutQuint')"><label for="hiddenInput" @click="this.drawer = false">Projects</label></v-list-item>
               <v-list-item  @click="$vuetify.goTo('#contact-header',22,'easeOutQuint')"><label for="hiddenInput" @click="this.drawer = false">Contact</label></v-list-item>
@@ -124,9 +124,13 @@ export default {
   overflow:hidden
 }
 
-.unorderedList .v-list-item{
-  font-size: 20px;
-  font-family:  Arial;
+.unorderedList .v-list-item label{
+  font-size: 30px;
+  line-height: 105px;
+  font-family:monospace;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid black
 }
 
 .box div{
