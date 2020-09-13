@@ -87,4 +87,10 @@ export default {
         margin-top:0
     }
 }
+
+@media only screen and (max-width:410px){
+    #flexWraper2{
+        margin-top:55%
+}
+}
 </style>
