@@ -4,10 +4,20 @@
         <v-layout row wrap class="d-grid mt-n15" justify-center>
             <h1 id="contact-header" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in" >Contact</h1>
             <br>
-            <v-flex xs12 md10 class="ml-15 mr-15" id="formWraper" data-aos="fade-right" data-aos-duration="1500" >
-                <v-form id="form" data-aos="fade-left" data-aos-duration="2500" >
+            <v-flex xs12 md10 class="mx-sm-3 mx-md-15" id="formWraper" data-aos="fade-right" data-aos-duration="1500" >
+                <v-form id="form" data-aos="fade-left" data-aos-duration="2500">
+                    <div v-if="formMsg" class="d-inline-flex mb-10" id="errorContainer" >
+                        <div v-if="!sent">
+                            <p class="errorMsg">{{formMsg}}</p>
+                        </div>
+                        <div v-else>
+                            <p class="successMsg">{{formMsg}}</p>
+                        </div>
+                        <v-btn fab @click="clearMsg" small> <v-icon big>mdi-close</v-icon> </v-btn>
+                    </div>
                     <label for="nm" class="nmLabel">Name</label>
                     <v-text-field
+                    v-model="name"
                     required
                     id="nm"
                     class="secondary--text mt-n5 mb-2"
@@ -15,6 +25,7 @@
                     </v-text-field>
                     <label for="email" class="emailLabel">E-mail</label>
                     <v-text-field
+                    v-model="email"
                     required
                     id="email"
                     class="secondary--text mt-n5 mb-2"
@@ -22,12 +33,13 @@
                     </v-text-field>
                     <label for="msg" class="msgLabel">Message</label>
                     <v-textarea
+                    v-model="msg"
                     id="msg"
                     required
                     class="secondary--text mt-n5 mb-2"
                     >   
                     </v-textarea>
-                    <v-btn text id="submitBtn" class="white--text float-right">Submit</v-btn>
+                    <v-btn type="submit" text id="submitBtn" class="white--text float-right" @click="onSend">Submit</v-btn>
                 </v-form>
             </v-flex>
         </v-layout>
@@ -36,11 +48,42 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com'
 export default {
     name:'Contact',
     data(){
         return{
-
+            name:'',
+            email:'',
+            msg:'',
+            formMsg:'',
+            sent:false
+        } 
+    },
+    methods:{
+        onSend(){
+            if(this.name.length > 1 || this.email.length > 1 || this.msg.length > 1){
+                emailjs.send('contact_service', 'contact_form', {from_name:this.name, reply_to:this.email, message:this.msg})
+                .then(response=>{
+                    console.log(response)
+                    this.sent = true
+                    this.formMsg ='Your message is sent successfuly'
+                    this.name = '',
+                    this.email= '',
+                    this.msg = ''
+                })
+                .catch(error=>{
+                    console.log(error)
+                    this.formMsg = 'All field are required.'
+                    this.sent = false
+                })
+            }
+            else{
+                this.formMsg='Your message was not sent, please try again.'
+            }
+        },
+        clearMsg(){
+            this.formMsg = ''
         }
     }
 }
@@ -67,6 +110,18 @@ export default {
     color:rgba(150,29,29);
     text-shadow:0.1px 0.1px black;
     margin-top:-7%
+}
+
+.errorMsg{
+    color:red
+}
+
+.successMsg{
+    color:green
+}
+
+#errorContainer{
+    border-bottom: 1px solid #b0bec5
 }
 
 #form{

@@ -1,5 +1,5 @@
 <template>
-    <v-container class="top-header" align-center fluid>
+    <v-container class="top-header" align-center fluid >
         <v-layout class="d-flex text-center" id="flexWraper" justify-center>
             <v-flex>
                 <h1 class="firstLine">Hello, my name is Dženan</h1>
@@ -34,7 +34,7 @@ export default {
 }
 
 #flexWraper2{
-    margin-top:35vh
+    margin-top:40vh
 }
 
 #arrowIcon{

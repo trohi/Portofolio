@@ -13,24 +13,29 @@
       <v-flex xs12 class="second-section">
         <h3>Projects</h3>
         <v-card class="project1" data-aos="fade-right">
-          <v-card-title>Meetup Dev</v-card-title>
-          <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3 "><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-title>MeetApp</v-card-title>
+          <v-card-content >MeetApp enables organisation of events for registered users. Users that doesn't own registered profile has access to informations but cant access functionalitys of web app like creation and registration for events/meetups. </v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://meetup-vue.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project2" data-aos="fade-left">
           <v-card-title>Perfect Squad</v-card-title>
-          <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-content >Perfect squad was final test for my first course during early part of my learning journey. Idea was to create web app for soccer fans, and enable functionlitys for users to create their own formations. Data about player informations and different formation are fetched from API. </v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Perfect-Squad-2"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://perfect-squad02.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project3" data-aos="fade-right">
           <v-card-title>Inform-nation</v-card-title>
-          <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project4" data-aos="fade-left">
           <v-card-title>Joke generator</v-card-title>
-          <v-card-content >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit perspiciatis debitis! Iure cum optio mollitia esse exercitationem eos obcaecati dignissimos vel impedit id, dicta quaerat harum sequi itaque aperiam.</v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-content >Joke generator is simple website that generates Chuck Norris jokes. Displaying jokes are fetched from API.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Chuck-Norris-joke-generator"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://generate-random-joke.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
+        <v-card class="project5" data-aos="fade-left">
+          <v-card-title>QuizApp</v-card-title>
+          <v-card-content >Simple quiz app which offers 4 answers for each question. There is 10 question and you can navigate through by answaring to given question and clicking next button. Web app also displays counter of correct answered question/total answered questions. All data used is fatched from public API.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/QuizApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://quizappp.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
       </v-flex>
     </v-layout>
@@ -118,7 +123,23 @@ h3{
 
 
 .project1{
-  background:linear-gradient(360deg, rgb(104, 102, 102), rgb(92, 81, 81),rgb(90, 50, 50), #660404)
+  background:linear-gradient(360deg,  rgb(207, 211, 216),rgb(142, 151, 228), #4a75ff)
+}
+
+.project2{
+  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(154, 226, 132), rgb(93, 245, 55))
+}
+
+.project3{
+  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(84, 148, 65), rgb(40, 182, 5))
+}
+
+.project4{
+  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 151, 132), rgb(245, 140, 55))
+}
+
+.project5{
+  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 132, 155), rgb(245, 55, 55))
 }
 
 .actions{
@@ -130,9 +151,6 @@ h3{
   transform: scale(1.5)
 }
 
-.project2{
-  background:linear-gradient(360deg, rgb(148, 143, 143), rgb(230, 231, 174), rgb(245, 229, 85))
-}
 
 .v-card{
   margin:5% 3%;
