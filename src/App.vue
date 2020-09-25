@@ -87,7 +87,7 @@ export default {
   width:35px;
   position:absolute;
   top: 50%;
-  left: 90%;
+  right: 10%;
   transform: translate(-50%, -50%);
   z-index:10
 }

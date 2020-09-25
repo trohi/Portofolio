@@ -1,14 +1,23 @@
 <template>
-  <v-container id="wrap" fluid fill-height mt-0>
+  <v-container id="wrap"  fill-height mt-0>
     <v-layout wrap row class="text-center d-flex" justify-center>
       <v-flex xs12 class="first-section" >
         <h3 >About</h3>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about1 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon id="icon1">mdi-lightbulb</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about2 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon2">mdi-send</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about3 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon3">mdi-code-tags</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about4 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon4">mdi-basketball</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about5 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon5">mdi-palette</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
-        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about6 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon6">mdi-music</v-icon> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in sed assumenda, fugit et consequatur delectus eligendi ipsa reprehenderit eveniet blanditiis omnis, ad pariatur ipsum enim aspernatur! Commodi, voluptas earum.</p></v-flex>
+        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about1 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon id="icon1">mdi-lightbulb</v-icon>
+         <p>I find coding as usable art. I like to code things from scratch, and enjoy bringing ideas to life in browser.</p>
+         </v-flex>
+        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about2 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon2">mdi-send</v-icon>
+         <p>More and more people are using all kinds of devices to access internet and websites these days. I create almost every website as responsive and good looking on all devices.</p>
+         </v-flex>
+        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about3 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon3">mdi-code-tags</v-icon>
+         <p>I tend to write efficient and readable code, making it to easier to debug.</p>
+         </v-flex>
+        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about4 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon4">mdi-basketball</v-icon>
+         <p>I find basketball most interesting sport and I am enjoying it whenever i can. </p>
+         </v-flex>
+        <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about6 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon6">mdi-music</v-icon>
+         <p>Listening to music is enhancing my creativity and physical performance. </p>
+         </v-flex>
       </v-flex>
       <v-flex xs12 class="second-section">
         <h3>Projects</h3>
@@ -84,7 +93,6 @@ h3{
 .mdi-send::before,
 .mdi-code-tags::before,
 .mdi-basketball::before,
-.mdi-palette::before,
 .mdi-music::before{
   color:rgba(150, 29,29)
 }
@@ -112,9 +120,6 @@ h3{
   animation-delay:0.5
 }
 
-.about5:hover > .mdi-palette::before{
-  animation:coloring 3s linear infinite;
-}
 
 .about6:hover > .mdi-music::before{
   animation:music 3s linear infinite;
@@ -201,29 +206,6 @@ h3{
       transform: translateX(0px) translateY(0px);
       transition: 200ms linear
   };
-}
-
-@keyframes coloring {
-  0%{
-    color:orange;
-    transform:scale(1.2)
-  }
-  30%{
-    color:purple;
-    transform:scale(1)
-  }
-  60%{
-    color:brown;
-    transform:scale(1.2)
-  }
-  80%{
-    color:blue;
-    transform:scale(1)
-  }
-  100%{
-    color:black;
-    transform:scale(0.9)
-  }
 }
 
 @keyframes music {
