@@ -1,5 +1,5 @@
 <template>
-  <v-container id="wrap"  fill-height mt-0>
+  <v-container id="wrap"  fill-height fluid mt-0 mx-0>
     <v-layout wrap row class="text-center d-flex" justify-center>
       <v-flex xs12 class="first-section" >
         <h3 >About</h3>
@@ -16,7 +16,7 @@
          <p>I find basketball most interesting sport and I am enjoying it whenever i can. </p>
          </v-flex>
         <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about6 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon6">mdi-music</v-icon>
-         <p>Listening to music is enhancing my creativity and physical performance. </p>
+         <p class="mb-0">Listening to music is enhancing my creativity and physical performance. </p>
          </v-flex>
       </v-flex>
       <v-flex xs12 class="second-section">
@@ -67,7 +67,6 @@
 
 .first-section{
   margin-top:5%;
-  margin-bottom:-20%;
   padding-bottom:0
 }
 
@@ -79,10 +78,15 @@ h3{
   font-size:25px;
 }
 
+.second-section{
+  margin-top:-33vh;
+  margin-bottom:-15vh
+}
+
 .second-section .v-card{
   width:80%;
   margin-left:auto;
-  margin-right:auto
+  margin-right:auto;
 }
 
 .v-sheet.v-card:not(.v-sheet--outlined){
@@ -144,7 +148,7 @@ h3{
 }
 
 .project5{
-  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 132, 155), rgb(245, 55, 55))
+  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 132, 155), rgb(245, 55, 55));
 }
 
 .actions{

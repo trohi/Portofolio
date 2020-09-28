@@ -177,8 +177,8 @@ export default {
 @media only screen and (max-width:691px){
     #curvature{
     margin-top:-25%;
-   /* width:125%;
-    display:block;*/
+    width:125%;
+    display:block;
     margin-left:-22px
     }
 }
