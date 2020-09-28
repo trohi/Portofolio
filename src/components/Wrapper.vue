@@ -26,11 +26,6 @@
           <v-card-content >MeetApp enables organisation of events for registered users. Users that doesn't own registered profile has access to informations but cant access functionalitys of web app like creation and registration for events/meetups. </v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://meetup-vue.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project2" data-aos="fade-left">
-          <v-card-title>Perfect Squad</v-card-title>
-          <v-card-content >Perfect squad was final test for my first course during early part of my learning journey. Idea was to create web app for soccer fans, and enable functionlitys for users to create their own formations. Data about player informations and different formation are fetched from API. </v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Perfect-Squad-2"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://perfect-squad02.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
-        </v-card>
         <v-card class="project3" data-aos="fade-right">
           <v-card-title>Inform-nation</v-card-title>
           <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
@@ -135,9 +130,6 @@ h3{
   background:linear-gradient(360deg,  rgb(207, 211, 216),rgb(142, 151, 228), #4a75ff)
 }
 
-.project2{
-  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(154, 226, 132), rgb(93, 245, 55))
-}
 
 .project3{
   background:linear-gradient(360deg, rgb(214, 209, 209), rgb(84, 148, 65), rgb(40, 182, 5))
