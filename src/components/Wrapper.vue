@@ -21,23 +21,47 @@
       </v-flex>
       <v-flex xs12 class="second-section">
         <h3>Projects</h3>
-        <v-card class="project1" data-aos="fade-right">
+        <v-card class="project1" data-aos="fade-left">
           <v-card-title>MeetApp</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/meetup-vue-screenshot.png"
+          >
+          </v-img>
           <v-card-content >MeetApp enables organisation of events for registered users. Users that doesn't own registered profile has access to informations but cant access functionalitys of web app like creation and registration for events/meetups. </v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://meetup-vue.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project3" data-aos="fade-right">
           <v-card-title>Inform-nation</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Inform-nation-screenshot.png"
+          >
+          </v-img>
           <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project4" data-aos="fade-left">
           <v-card-title>Joke generator</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Joke-generator-screenshot.png"
+          >
+          </v-img>
           <v-card-content >Joke generator is simple website that generates Chuck Norris jokes. Displaying jokes are fetched from API.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Chuck-Norris-joke-generator"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://generate-random-joke.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project5" data-aos="fade-left">
+        <v-card class="project5" data-aos="fade-right">
           <v-card-title>QuizApp</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Quiz-screenshot.png"
+          >
+          </v-img>
           <v-card-content >Simple quiz app which offers 4 answers for each question. There is 10 question and you can navigate through by answaring to given question and clicking next button. Web app also displays counter of correct answered question/total answered questions. All data used is fatched from public API.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/QuizApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://quizappp.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
