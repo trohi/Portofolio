@@ -43,6 +43,17 @@
           <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
+        <v-card class="project6" data-aos="fade-left">
+          <v-card-title>IP Address Tracker</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Ip-address-tracker-screenshot.png"
+          >
+          </v-img>
+          <v-card-content >IP Address Tracker is a web app that allows user to enter IP address in input field and get its geolocation on map pointed with marker. </v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/IP-adress-tracker"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://ip-address-tracker0.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
         <v-card class="project4" data-aos="fade-left">
           <v-card-title>Joke generator</v-card-title>
           <v-img
