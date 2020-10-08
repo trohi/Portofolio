@@ -4,7 +4,7 @@
       <v-flex xs12 class="first-section" >
         <h3 >About</h3>
         <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about1 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon id="icon1">mdi-lightbulb</v-icon>
-         <p>I find coding as usable art. I like to code things from scratch, and enjoy bringing ideas to life in browser.</p>
+         <p>I like to code things from scratch, and enjoy bringing ideas to life in browser.</p>
          </v-flex>
         <v-flex data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="about2 mt-5 pl-3 pr-3" md6 offset-md-3 ><v-icon class="icon2">mdi-send</v-icon>
          <p>More and more people are using all kinds of devices to access internet and websites these days. I create almost every website as responsive and good looking on all devices.</p>
@@ -32,7 +32,7 @@
           <v-card-content >MeetApp enables organisation of events for registered users. Users that doesn't own registered profile has access to informations but cant access functionalitys of web app like creation and registration for events/meetups. </v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://meetup-vue.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project3" data-aos="fade-right">
+        <v-card class="project1" data-aos="fade-right">
           <v-card-title>Inform-nation</v-card-title>
           <v-img
           class="ml-auto mr-auto mb-5" 
@@ -43,7 +43,7 @@
           <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project6" data-aos="fade-left">
+        <v-card class="project1" data-aos="fade-left">
           <v-card-title>IP Address Tracker</v-card-title>
           <v-img
           class="ml-auto mr-auto mb-5" 
@@ -52,9 +52,20 @@
           >
           </v-img>
           <v-card-content >IP Address Tracker is a web app that allows user to enter IP address in input field and get its geolocation on map pointed with marker. </v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/IP-adress-tracker"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://ip-address-tracker0.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/IP-adress-tracker"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://ip-address-tracker0.netlify.app/ "><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project4" data-aos="fade-left">
+        <v-card class="project1" data-aos="fade-left" >
+          <v-card-title>Room-homepage</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/desktop-design-slide-1.jpg"
+          >
+          </v-img>
+          <v-card-content >Room-homepage is recreation of given design. I chose to develope this project in purpose to pratice my skills in following given design. Home page is responsive and it fits desktop : 1291px and mobile: 375px.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/room-homepage"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://gracious-jennings-f7b29d.netlify.app/ "><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
+        <v-card class="project1" data-aos="fade-left">
           <v-card-title>Joke generator</v-card-title>
           <v-img
           class="ml-auto mr-auto mb-5" 
@@ -65,7 +76,7 @@
           <v-card-content >Joke generator is simple website that generates Chuck Norris jokes. Displaying jokes are fetched from API.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Chuck-Norris-joke-generator"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://generate-random-joke.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
-        <v-card class="project5" data-aos="fade-right">
+        <v-card class="project1" data-aos="fade-right">
           <v-card-title>QuizApp</v-card-title>
           <v-img
           class="ml-auto mr-auto mb-5" 
@@ -92,7 +103,8 @@
 
 <style >
 #wrap{
-  background: linear-gradient(65deg, rgb(154, 236, 154), rgba(152, 226, 222, 0.4), rgba(241, 239, 117, 0.4), #ffffff)
+  background: linear-gradient(rgb(77, 99, 133), rgb(79, 101, 134))
+  /*background:linear-gradient( white)*/
 }
 
 .first-section{
@@ -120,7 +132,12 @@ h3{
 }
 
 .v-sheet.v-card:not(.v-sheet--outlined){
-  border-left:3px solid rgba(150, 29,29);
+  border-left:3px solid rgba(50,50,50);
+}
+
+.v-image{
+  border:2px solid rgba(50,50,50);
+  border-radius:10px
 }
 
 .mdi-lightbulb::before,
@@ -160,22 +177,14 @@ h3{
   transform: scale(1.5) 
 }
 
-
 .project1{
-  background:linear-gradient(360deg,  rgb(207, 211, 216),rgb(142, 151, 228), #4a75ff)
+  background:linear-gradient(#9faddd,rgb(232, 234, 238))
+ /* background:linear-gradient(90deg,#555454,  #b8b3b3)*/
 }
 
-
-.project3{
-  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(84, 148, 65), rgb(40, 182, 5))
-}
-
-.project4{
-  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 151, 132), rgb(245, 140, 55))
-}
-
-.project5{
-  background:linear-gradient(360deg, rgb(214, 209, 209), rgb(226, 132, 155), rgb(245, 55, 55));
+.project1:hover{
+  background:linear-gradient(90deg, rgb(31, 102, 235), 1px, #dad8c6);
+  transition: 55s ease-out
 }
 
 .actions{

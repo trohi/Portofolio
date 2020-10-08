@@ -19,16 +19,18 @@
                     <v-text-field
                     v-model="name"
                     required
+                    dark
                     id="nm"
-                    class="secondary--text mt-n5 mb-2"
+                    class="mt-n5 mb-2"
                     >
                     </v-text-field>
                     <label for="email" class="emailLabel">E-mail</label>
                     <v-text-field
                     v-model="email"
                     required
+                    dark
                     id="email"
-                    class="secondary--text mt-n5 mb-2"
+                    class="mt-n5 mb-2"
                     >
                     </v-text-field>
                     <label for="msg" class="msgLabel">Message</label>
@@ -36,7 +38,8 @@
                     v-model="msg"
                     id="msg"
                     required
-                    class="secondary--text mt-n5 mb-2"
+                    dark
+                    class=" mt-n5 mb-2"
                     >   
                     </v-textarea>
                     <v-btn type="submit" text id="submitBtn" class="white--text float-right" @click="onSend">Submit</v-btn>

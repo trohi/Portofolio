@@ -120,7 +120,7 @@ export default {
 #drawerContent{
   height:100vh;
   top:0;
-  background: linear-gradient(10deg,rgb(113, 212, 68), rgb(87, 85, 85));
+  background: linear-gradient(10deg,rgb(30, 31, 29), rgb(87, 85, 85));
   overflow:hidden
 }
 
@@ -130,7 +130,8 @@ export default {
   font-family:monospace;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 2px solid black
+  border-bottom: 2px solid rgb(150,29,29);
+  color:white
 }
 
 .box div{
