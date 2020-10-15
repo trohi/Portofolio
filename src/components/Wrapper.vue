@@ -43,6 +43,17 @@
           <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
+        <v-card class="project1" data-aos="fade-right">
+          <v-card-title>Inform-nation</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/rock-paper-scissors.png"
+          >
+          </v-img>
+          <v-card-content >Rock, paper, scissors is game played between user and computer. User has three shapes to choose between, each shape beats one of two remaining shapes. Rules are predetermined by orginal game's creator. The main focus was on following given designe I used Vue.js and vuex to menage all the applications data in one place.</v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/rock-paper-scissors"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://elated-mcnulty-b9c4d2.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
         <v-card class="project1" data-aos="fade-left">
           <v-card-title>IP Address Tracker</v-card-title>
           <v-img
