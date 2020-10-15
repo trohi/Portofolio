@@ -44,7 +44,7 @@
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-right">
-          <v-card-title>Inform-nation</v-card-title>
+          <v-card-title>rock-paper-scissors</v-card-title>
           <v-img
           class="ml-auto mr-auto mb-5" 
           width="450"
