@@ -29,7 +29,7 @@
           src="../assets/meetup-vue-screenshot.png"
           >
           </v-img>
-          <v-card-content >MeetApp enables organisation of events for registered users. Users that doesn't own registered profile has access to informations but cant access functionalitys of web app like creation and registration for events/meetups. </v-card-content>
+          <v-card-content >MeetApp enables organisation of events for registered users. Users that don't own registered profile have access to information but can't access functionalities of web app such as creation and registration for events/meetups. </v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://meetup-vue.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-right">
@@ -40,7 +40,7 @@
           src="../assets/Inform-nation-screenshot.png"
           >
           </v-img>
-          <v-card-content >Inform-nation is imagined to be blog like web site. Using this site you can share your story with other users. For user to publish his story its required to have registred profile. There is one more step before publishing story, administrator of website needs to approve your story at first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this metter is created for testing purpose.</v-card-content>
+          <v-card-content >Inform-nation is imagined to be a blog-like web site. Using this site you can share your stories with other users. For a user to publish his story its required to have a registred profile. There is one more step before publishing a story, administrator of the website needs to approve user's story first. Creation of administrator account is let for user's will to choose between regular or admin account within account registration form. Logic regarding this matter is created for testing purpose.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/My-app"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://inform-nation.herokuapp.com/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-right">
@@ -51,7 +51,7 @@
           src="../assets/rock-paper-scissors.png"
           >
           </v-img>
-          <v-card-content >Rock, paper, scissors is game played between user and computer. User has three shapes to choose between, each shape beats one of two remaining shapes. Rules are predetermined by orginal game's creator. The main focus was on following given designe I used Vue.js and vuex to menage all the applications data in one place.</v-card-content>
+          <v-card-content >Rock, paper, scissors is a game played between user and computer. User has three shapes to choose between, each shape beats one of two remaining shapes. Rules are predetermined by original creator of the game. The main focus was on following given designe, I used Vue.js and vuex to manage all the application's data in one place.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/rock-paper-scissors"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://elated-mcnulty-b9c4d2.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-left">
@@ -62,7 +62,7 @@
           src="../assets/Ip-address-tracker-screenshot.png"
           >
           </v-img>
-          <v-card-content >IP Address Tracker is a web app that allows user to enter IP address in input field and get its geolocation on map pointed with marker. </v-card-content>
+          <v-card-content >IP Address Tracker is a web app that allows user to enter IP address in the input field and get it's geolocation pointed with marker.on the map.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/IP-adress-tracker"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://ip-address-tracker0.netlify.app/ "><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-left" >
@@ -73,7 +73,7 @@
           src="../assets/desktop-design-slide-1.jpg"
           >
           </v-img>
-          <v-card-content >Room-homepage is recreation of given design. I chose to develope this project in purpose to pratice my skills in following given design. Home page is responsive and it fits desktop : 1291px and mobile: 375px.</v-card-content>
+          <v-card-content >Room-homepage is recreation of given design. I chose to develope this project in purpose to pratice my skills in this matter. Home page is responsive and it fits desktop: 1291px and mobile: 375px.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/room-homepage"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://gracious-jennings-f7b29d.netlify.app/ "><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-left">
@@ -84,7 +84,7 @@
           src="../assets/Joke-generator-screenshot.png"
           >
           </v-img>
-          <v-card-content >Joke generator is simple website that generates Chuck Norris jokes. Displaying jokes are fetched from API.</v-card-content>
+          <v-card-content >Joke generator is a simple website that generates Chuck Norris jokes. Displaying jokes are fetched from API.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Chuck-Norris-joke-generator"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://generate-random-joke.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-right">
@@ -95,7 +95,7 @@
           src="../assets/Quiz-screenshot.png"
           >
           </v-img>
-          <v-card-content >Simple quiz app which offers 4 answers for each question. There is 10 question and you can navigate through by answaring to given question and clicking next button. Web app also displays counter of correct answered question/total answered questions. All data used is fatched from public API.</v-card-content>
+          <v-card-content >Simple quiz app which offers 4 answers for each question. There is 10 questions and you can navigate through them by answering to given questions and clicking the button 'next'. Web app also displays total number of correct answers. All data used is fetched from public API.</v-card-content>
           <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/QuizApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://quizappp.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
       </v-flex>
