@@ -52,7 +52,29 @@
           >
           </v-img>
           <v-card-content >Rock, paper, scissors is a game played between user and computer. User has three shapes to choose between, each shape beats one of two remaining shapes. Rules are predetermined by original creator of the game. The main focus was on following given designe, I used Vue.js and vuex to manage all the application's data in one place.</v-card-content>
-          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/rock-paper-scissors"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://elated-mcnulty-b9c4d2.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/web-chat"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://elated-mcnulty-b9c4d2.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
+         <v-card class="project1" data-aos="fade-left">
+          <v-card-title>Chat app</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Screenshot from webChat.png"
+          >
+          </v-img>
+          <v-card-content >Web chat is simple chat application developed with Vue.js, bootstrap and firebase as backend service. User has to create account to be able to access to chat section. For now it is only posible to chat to one person, but I am planning to create functionality of more chat rooms. </v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/MeetApp"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://cha-tapp.netlify.app"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
+        </v-card>
+         <v-card class="project1" data-aos="fade-right">
+          <v-card-title>Infite scroll gallery</v-card-title>
+          <v-img
+          class="ml-auto mr-auto mb-5" 
+          width="450"
+          src="../assets/Screenshot from infinite scroll app.png"
+          >
+          </v-img>
+          <v-card-content >Infinite scroll gallery is an app that uses API as data provider, and it is developed in React. As soon as you approach the bottom of list of pictures during scroll action, app loads another set of pictures. There are three options in navigation menu: blur effect option, grayscale effect opetion and normal option which loads pictures without special effects. </v-card-content>
+          <v-card-actions class="actions"> <v-spacer></v-spacer> <v-btn light text class="ml-2 mr-3" href="https://github.com/trohi/Corussoft-task01"><v-icon class="gitIcon">mdi-github</v-icon></v-btn>  <v-btn light text class="ml-3 mr-2" href="https://infinite-scroll-gall3ry.netlify.app/"><v-icon class="liveIcon">mdi-web</v-icon></v-btn> <v-spacer></v-spacer> </v-card-actions> 
         </v-card>
         <v-card class="project1" data-aos="fade-left">
           <v-card-title>IP Address Tracker</v-card-title>
